@@ -41,13 +41,19 @@
     "watch": "rollup -c -w"
   },
   "dependencies": {
-    "@antv/g-math": "workspace:*",
+    "@antv/g-math": "2.0.2",
     "@antv/util": "^3.3.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
     "d3-color": "^1.4.0",
+    "esbuild": "^0.19.5",
     "eventemitter3": "^5.0.1",
     "gl-matrix": "^3.4.3",
     "rbush": "^3.0.1",
-    "tslib": "^2.5.3"
+    "rollup": "^4.4.1",
+    "tslib": "2.6.2"
   },
   "devDependencies": {
     "@types/d3-color": "^3.0.2",
